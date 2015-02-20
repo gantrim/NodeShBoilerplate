@@ -1,0 +1,41 @@
+{
+  "name": "AppDeployer",
+  "version": "0.0.1",
+  "description": "Application To ",
+  "author": "Greg Antrim <g.antrim@kunzleigh.com>",
+  "contributors": [
+    {
+      "name": "Casey Herman",
+      "email": "c.herman@kunzleigh.com"
+    }
+  ],
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Kunz",
+    "Leigh",
+    "Jenkins",
+    "Deploy"
+  ],
+  "dependencies": {
+    "bluebird": "^2.8.2",
+    "colors": "^1.0.3",
+    "jade": "^1.9.2",
+    "jenkins": "^0.7.0",
+    "jenkins-api": "^0.2.6",
+    "mkdirp": "^0.5.0",
+    "nconf": "^0.7.1",
+    "ping": "^0.1.9",
+    "request": "^2.53.0",
+    "smb2": "^0.2.6",
+    "winston": "^0.8.3"
+  },
+  "devDependencies": {},
+  "preferGlobal": true,
+  "publishConfig": {
+    "registry": "https://npm.fury.io/HSMcxoWgpQW6--xMV9he/kunzleigh/"
+  }
+}
